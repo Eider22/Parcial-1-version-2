@@ -1,0 +1,59 @@
+*{ box-sizing: border-box;
+  margin: 0;
+
+}
+
+#head{
+  position: absolute;
+  left: 21vw;
+  top: 30vh;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-size: 2rem;
+  align-items: center;
+
+}
+
+#head .original{
+  font-weight: 1000;
+}
+
+body{
+  font- family: "Roboto";
+  color: rgb(255, 255, 255)
+}
+
+span{
+  color: black;
+  font-size: 25px;
+}
+
+header {
+  display: flex;
+  flex-direction: grid;
+}
+
+main {
+  display: flex;
+  flex-direction: grid;
+}
+
+footer {
+  display: flex;
+  flex-direction: grid;
+  position: absolute;
+  background-color: rgb(17, 17, 17);
+  text-align: center;
+}
+
+#formulario1 {
+  background-color: rgb(17, 17, 17);
+  padding: 10px;
+}
+
+#logo{
+  position: absolute;
+  top: 80px;
+  left: 60px;
+}
